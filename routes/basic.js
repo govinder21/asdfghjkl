@@ -6,28 +6,28 @@
  
  router.get("/", function(req,res){
     //  res.send("home page")
-    res.render("home")
+    res.render("about")
  })
  
- router.get("/about", function(req, res){
-     res.render("about")
- })
+//  router.get("/about", function(req, res){
+//      res.render("about")
+//  })
  
- router.get("/contact", function(req, res) {
-     res.render("contact")
- })
+//  router.get("/contact", function(req, res) {
+//      res.render("contact")
+//  })
 
- router.get("/faq", function(req, res) {
-     res.render("faq")
- })
+//  router.get("/faq", function(req, res) {
+//      res.render("faq")
+//  })
  
- router.get("/blogs", function(req, res) {
-     res.render("blog")
- })
+//  router.get("/blogs", function(req, res) {
+//      res.render("blog")
+//  })
 
- router.get("/blog", function(req, res) {
-     res.render("blog-single")
- })
+//  router.get("/blog", function(req, res) {
+//      res.render("blog-single")
+//  })
  
  
  
