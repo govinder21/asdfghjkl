@@ -4130,6 +4130,21 @@ footer.dark p {
   24
   Media Queries
 */
+
+@media (max-width:576px){
+  
+  #seed{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  #product{
+    padding-bottom: 0px;
+    padding-top: 20px;
+  }
+}
+
+
 @media (min-width: 992px) {
   #topnav.top-space {
     top: 20px;
