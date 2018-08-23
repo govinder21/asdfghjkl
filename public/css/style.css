@@ -729,6 +729,7 @@ blockquote footer {
 #topnav.scroll {
   background-color: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  
 }
 #topnav.scroll .navigation-menu > li > a {
   color: #191b1d;
@@ -832,10 +833,10 @@ blockquote footer {
 #topnav .navigation-menu > li > a {
   display: block;
   color: #fff;
-  font-size: 10px;
+  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight: 500;
+  font-weight: 700;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
   line-height: 20px;
@@ -4898,4 +4899,18 @@ footer.dark p {
   }
 }
 
+.whiteText{
+  color:white;
 
+  text-shadow: 2px 2px 4px #000000;
+  
+}
+
+.barLink:hover{
+  color:#4af441 !important;
+}
+
+/*#topnav.scroll{*/
+/*   background-image:url('images/bg/bg162 (1).jpg');*/
+/*   background-size: cover;*/
+/*}*/
